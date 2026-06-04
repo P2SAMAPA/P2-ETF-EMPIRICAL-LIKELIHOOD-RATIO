@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.optimize import minimize_scalar
+import config  # <-- added import
 
 def empirical_likelihood_ratio(y, mu0=0):
     """
