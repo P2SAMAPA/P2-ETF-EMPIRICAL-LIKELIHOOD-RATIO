@@ -2,7 +2,7 @@ name: Daily Empirical Likelihood Training
 
 on:
   schedule:
-    - cron: '30 02 * * *'
+    - cron: '30 00 * * *'
   workflow_dispatch:
 
 jobs:
